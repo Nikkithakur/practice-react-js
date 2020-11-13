@@ -12,6 +12,6 @@ import React from 'react'
  * - can also export the function directly
  */
 
-export const Greet = () =>  <h1>Hello Batman!!</h1>
+const Greet = () =>  <h1>Hello Batman!!</h1>
 
-//export default Greet
+export default Greet
