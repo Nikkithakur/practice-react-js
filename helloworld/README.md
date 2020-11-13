@@ -25,4 +25,11 @@
     - not a necessity , can write react app without JSX
     - Syntactic sugar
     - camel Case
+
+# 5. Props
+    - name attribute on components
+    - inspect element -> console -> object
+    - props are immutable
+    - for example cannot set props.name
+    - this.props.attributes
  
