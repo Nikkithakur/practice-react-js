@@ -32,4 +32,17 @@
     - props are immutable
     - for example cannot set props.name
     - this.props.attributes
+
+# 6. State
+    - every react component returns JSX
+## prop vs state
+### prop
+    - get passed to component or function parameters
+    - props in functional components, this.props in class components
+### state
+    - state is managed by component
+    - useState Hook - functional component
+    - this.state - class components
+    - use this.setState() for change in values
+
  
