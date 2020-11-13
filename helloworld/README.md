@@ -15,4 +15,14 @@
     - complex UI logic
     - provide lifecycle hooks
     - stateful / smart / Container components
+
+# 4. JSX
+## Functional - ++updated
+    - solution can use state, this binding
+    - provide lifecycle hooks
+## JSX
+    - Javascript XML , write xml like code
+    - not a necessity , can write react app without JSX
+    - Syntactic sugar
+    - camel Case
  
