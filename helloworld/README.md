@@ -45,4 +45,6 @@
     - this.state - class components
     - use this.setState() for change in values
 
+# 7. structure
+
  

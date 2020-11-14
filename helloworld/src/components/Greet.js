@@ -13,11 +13,12 @@ import React from "react";
  */
 
 const Greet = (props) => {
+  const {name, realName} = props
   console.log(props);
   return (
     <div>
       <h1>
-        Hello heroname {props.name}!! a.k.a {props.realName}
+        Hello heroname {name}!! a.k.a {realName}
       </h1>
       <h2>{props.children}</h2>
     </div>

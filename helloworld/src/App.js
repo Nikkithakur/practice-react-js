@@ -4,6 +4,7 @@ import Greet from "./components/Greet";
 import Welcome from "./components/Welcome";
 import Hello from "./components/Hello";
 import Message from "./components/Message";
+import Counter from "./components/Counter";
 //import {Greet} from './components/Greet';
 
 /**
@@ -21,10 +22,13 @@ function App() {
         <button>Action</button>
       </Greet>
       <Welcome name="Welcome props"/>
-      <Hello /> */}
-      <Message>
-        
-      </Message>
+      <Hello /> 
+      <Message/>
+      */}
+      <Greet name="Props Superman" realName="ClarkKent">
+      </Greet>
+      <Welcome name="Welcome props"/>
+      <Counter></Counter>
     </div>
   );
 }
